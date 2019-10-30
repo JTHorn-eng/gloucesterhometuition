@@ -1,0 +1,38 @@
+@media screen and (max-width: 640px) {
+    #wrapper {
+        margin: 0px auto;
+        max-width: 640px;
+    }
+    header {
+        height: 100%;
+        padding-bottom: 5px;
+    }
+    nav {
+        height: 100%;
+        padding: 5px 0px;
+    }
+    #mainImage {
+        width: 70%;
+        height: 70%;
+        padding: 15% 15%;
+        margin-top: -15%;
+    }
+    
+}
+
+@media screen and (min-width: 640px) {
+    #wrapper {
+        margin: 0px auto;
+        max-width: 900px;
+    }
+    header {
+        height: 150px;
+        padding-bottom: 5px;
+
+    }
+    nav {
+        height: 35px;
+        padding: 10px 0px;
+    }
+    
+}

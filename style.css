@@ -1,10 +1,9 @@
 /*
-fonts
+    user-defined fonts
 */
-
 @font-face {
     font-family: Trajan;
-    src: url(Trajan\ Pro\ Regular.ttf);
+    src: url(../Resources/Fonts/Trajan.ttf);
 }
 @font-face {
     font-family: Montserrat;
@@ -15,319 +14,168 @@ fonts
     src: url(../Resources/Fonts/Montserrat-Thin.ttf);
 }
 
-
 body {
-    /*background-color: #A7B3B4;*/
     background: linear-gradient(to bottom, rgb(227, 242, 243) , white 50% );
 }
 
-
-
-/*main semantics*/
 header {
-  
-
-    height:  150px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    height: 150px;
     background-color: #283441;
-    margin-top: 20px;
-    max-width: 1000px;
-}
-
-#title {
-    font-family: Trajan;
-    width: 80%;
-    text-align: left;
-    font-size: 24pt;
-    margin-left: 5%;
-    padding-top: 2%;
+    font-family: Trajan; 
     color: white;
-
 }
 
-#subtitle {
-
-    font-family: Trajan;
-    color: white;
-    text-align: left;
-    font-size: 14pt;
-    margin-left: 5%;
-    margin-top: -1%;
-    
-}
-
-nav{
+nav {
     background-color: #4A5D73;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 35px;
-    padding-top: 10px;
-    border-bottom: 3px solid gray;
-    max-width: 1000px;
-
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+    font-family: Trajan;
+    border-bottom: 3px solid rgb(209, 209, 209);
 }
-
-
 
 article {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.1em;
     background-color: white;
-    width: 80%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 4%;
-    max-width: 1000px;
+}
 
+#map {
+    width: 100%;
+    height: 500px;
+}
+
+#map a{
+    color: black;
+    margin-left: 95%;
+    margin-top: 450px;
+}
+
+
+section {
+    height: 200px;
+    width: 100%;
+}
+
+#sectionInfo {
+    height: 100%;
+    width: 100%;
 }
 
 aside {
-    float: right;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 25%;
+    width: 50%;
     height: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 12pt;
-    margin-top: -7.5%;
-
+    float: right;
+    background-color: white;
 }
 
-#articleTitle {
-    font-size: 20pt;
-    margin-top: -1%;
+#emailLink {
+    color: black;
+}
+
+footer {
+    border-top: 2px solid rgb(209, 209, 209);
+    color: white;
+    height: 200px;
+    /*background-color: #5C777B;*/
+}
+
+.footerSection { 
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    background-color: #5C777B;
+}
+
+#infoRight {
+    float: right;
+    width: 30%;
+    height: 100%;
+}
+
+#infoLeft {
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+#Subjects {
+    padding-left: 5%;
+}
+
+#mainImage {
+    float: right;
+    width: 225px;
+    height: 250px;
+    padding: 2% 5%;
+}
+
+h1, h4 {
+    padding-left: 5%;
+    padding-top: 2%;
+    width: 100%;
+}
+
+h2, h3 {
+    font-family: Trajan;
+    font-size: 1.2em;
+    padding: 25px 5% 0px;
+}
+
+#mainTitle {
+    font-size: 1.4em;
+}
+
+p {
+    padding: 1% 5% 0% 5%;
+    width: 80%;
+}
+
+#footerText {
+    padding: 0% 5% 0% 5%;
+    font-size: 0.7em;
+    text-align: left;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+    font-family: Trajan;
+    margin-left: 5%;
 }
 
 #currentPage {
-    padding-bottom: 10px;
     border-bottom: 2px solid white;
-
 }
-
-
-#mainImage {
-    float: right;   
-    width: 225px;
-    height: 250px; 
-    margin-right: 7%;
-    margin-left: 5%;
-    margin-top: -5%;
+#SubjectHeader {
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-
-footer {
-
-    height: 100%;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    border-top: 2px solid gray;
-    background-color: #5C777B;
-    color: white;
-    max-width: 1000px;
-    font-size: 7pt;
-
-
-}
-/*
-    individual elements
-*/
-
-
- h3 {
-    width: 85%;
-    margin-left: 7.5%;
-    font-family: Trajan;
-    padding-top: 2%;
-    
-}
-h2 {
-    width: 85%;
-    margin-left: 7.5%;
-    font-family: Trajan;
-    margin-top: -2%;
-}
-
-#titleMain {
-    margin-bottom: 5%;
-    margin-top: -5%;
-}
-
-u {
-    margin-left: 7.5%;
-    font-family:Trajan;
-    font-size: 16pt;
-    text-decoration: none;
-}
-#titleBorder {
-    background-image: linear-gradient(to right, #FFF, rgb(172, 172, 172), #FFF);
-    max-width: 1000px;
-    width: 85%;
-    height: 3px;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
-    margin-top: 7.5%;
-}
-
 #sectionBorder {
     background-image: linear-gradient(to right, #FFF, rgb(172, 172, 172), #FFF);
     max-width: 1000px;
-    width: 60%;
+    width: 80%;
     height: 3px;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
-    margin-top: 7.5%;
-}
-
-p{
-    width: 85%;
-    margin-left: 7.5%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 12pt;
-}
-
-table {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-right: 7.5%;
-    width: 100%;
-}
-#sec1 {
-    width: 25%
-}
-#sec2 {
-    width: 35%;
-}
-#sec3 {
-    width: 40%;
-}
-
-h4 {
-    font-family: Trajan;
-}
-
-
-
-a {
-    margin-top: 5%;
-    text-decoration: none;
-    font-family: Trajan;
-    font-size: 12pt;
-    text-align: center;
-    color: white;
-    margin-left: 5%;
+    margin: 10% 0% 10% 0%;
 }
 
 a:hover {
     text-decoration: underline;
-    color: white;
 }
-
-table {
-    margin-left: 7.5%;
-    margin-top: -2%;
-
-}
-#subjects {
-    margin-top: 5%;
-    font-size: 14pt;
-}
-
-#moveThis {
-    padding-left: 80px;
-}
-
-#emailLink {
-    text-decoration: none;
-    color: black;
-    font-size: 12pt;
+ul {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 0px;
-    margin-left: -1%;
+    font-size: 1em;
 }
 
-#emailLink:hover {
-    text-decoration: underline;
-}
-/*
-images
-*/
-
-#icon {
-    float: left;
-    width: 30px;
-    height: 30px;
-}
-#Name {
-    font-size: 24pt;
-    margin-left: 7.5%;
-    font-family: Trajan;
-    margin-top: -1%;
-}
-#Email {
-    font-size: 24pt;
-    margin-left: 7.5%;
-    font-family: Trajan;
-    margin-top: -1%;
-}
-h5 {
-    margin-left: 10%;
-    font-size: 18pt;
-    margin-top: -10px;
-}
-h6 {
-    margin-left: 10%;
-    font-size: 12pt;
-    
-}
-
-#spacing {
+#spacer {
     height: 100px;
 }
 
-#footerMail {
-    margin-top: 70px;
-    font-size: 9pt;
-}
-
-#footerTable {
-    width: 100%;
-
-}
-
-#footerText {
-    margin-top: 15px; 
-    font-size: 9pt;
-    margin-right: 5%;
-
-}
-#footerTextA {
-    font-size: 9pt;
-    margin-left: 5px;
-    margin-top: 20%;
-
-}
-
-#footerTextLast {
-    margin-top: 40px;
-    font-size: 9pt;
-    margin-right: 5%;
-}
 #footerLink {
-    text-decoration: none;
-    font-size: 10pt;
+    font-size: 0.8em;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-top: 5%;
 }
 
-#footerLink:hover {
-    text-decoration: underline;
-    font-size: 10pt;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-}
-.map {
-    height: 400px;
-    width: 100%;
-}
