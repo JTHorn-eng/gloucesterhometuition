@@ -3,16 +3,9 @@
 */
 @font-face {
     font-family: Trajan;
-    src: url(../Resources/Fonts/Trajan.ttf);
+    src: url(Trajan.ttf);
 }
-@font-face {
-    font-family: Montserrat;
-    src: url(../Resources/Fonts/Montserrat-Regular.ttf);
-}
-@font-face {
-    font-family: Montthin;
-    src: url(../Resources/Fonts/Montserrat-Thin.ttf);
-}
+
 
 body {
     background: linear-gradient(to bottom, rgb(227, 242, 243) , white 50% );
